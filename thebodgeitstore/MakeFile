@@ -1,0 +1,3 @@
+installZapPlugin:
+	cd ./zap-maven-plugin
+	mvn install
