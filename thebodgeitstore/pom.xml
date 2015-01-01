@@ -33,33 +33,6 @@
           </execution>
         </executions>
       </plugin>
-      
-      
-      <plugin>
-   <groupId>org.apache.maven.plugins</groupId>
-   <artifactId>maven-install-plugin</artifactId>
-   <version>2.5.1</version>
-   <configuration>
-      <groupId>org.zaproxy.zapmavenplugin</groupId>
-        <artifactId>zap-maven-plugin</artifactId>
-        <version>1.6-SNAPSHOT</version>
-        
-      <packaging>jar</packaging>
-      <file>${basedir}/lib/zap-maven-plugin-1.6-SNAPSHOT.jar</file>
-      <generatePom>true</generatePom>
-   </configuration>
-   <executions>
-      <execution>
-         <id>install-jar-lib</id>
-         <goals>
-            <goal>install-file</goal>
-         </goals>
-         <phase>validate</phase>
-      </execution>
-   </executions>
-</plugin>
-      
-      
       <plugin>
         <groupId>org.zaproxy.zapmavenplugin</groupId>
         <artifactId>zap-maven-plugin</artifactId>
