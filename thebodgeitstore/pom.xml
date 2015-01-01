@@ -37,6 +37,8 @@
         <groupId>org.zaproxy.zapmavenplugin</groupId>
         <artifactId>zap-maven-plugin</artifactId>
         <version>1.6-SNAPSHOT</version>
+        
+        
         <configuration>
           <!-- Windows -->
          <!--   <zapProgram>C:\Work\Tools\ZAProxy\zap.bat</zapProgram> -->
@@ -102,6 +104,13 @@
       <artifactId>selenium-java</artifactId>
       <version>LATEST</version>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.zaproxy.zapmavenplugin</groupId>
+        <artifactId>zap-maven-plugin</artifactId>
+        <version>1.6-SNAPSHOT</version>
+        <systemPath>${basedir}/lib/zap-maven-plugin-1.6-SNAPSHOT.jar</systemPath>
+        
     </dependency>
   </dependencies>
 
