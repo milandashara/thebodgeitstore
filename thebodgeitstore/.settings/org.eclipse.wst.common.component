@@ -3,6 +3,9 @@
         <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <dependent-module archiveName="zap-maven-plugin-1.6-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/zap-maven-plugin/zap-maven-plugin">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <property name="context-root" value="thebodgeitstore"/>
         <property name="java-output-path" value="/thebodgeitstore/target/classes"/>
     </wb-module>
