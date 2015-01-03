@@ -37,7 +37,7 @@
         <groupId>org.zaproxy.zapmavenplugin</groupId>
         <artifactId>zap-maven-plugin</artifactId>
         <version>1.6-SNAPSHOT</version>
-        
+       
         
         <configuration>
           <!-- Windows -->
@@ -105,13 +105,7 @@
       <version>LATEST</version>
       <scope>test</scope>
     </dependency>
-    <dependency>
-      <groupId>org.zaproxy.zapmavenplugin</groupId>
-        <artifactId>zap-maven-plugin</artifactId>
-        <version>1.6-SNAPSHOT</version>
-        
-        
-    </dependency>
+    
   </dependencies>
 
 </project>
